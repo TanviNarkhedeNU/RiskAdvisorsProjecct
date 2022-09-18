@@ -7,3 +7,5 @@ Inside stocknewapp, a new directory poll has been created within which serialize
 
 In models.py several attributes from the csv files and their datatype have been defined takind id as primary key and equity_id as Foreign_key.
 
+Inside the main project directory frontend directory is created and within the directory npm has been initialized and new react project has been created.
+
