@@ -23,5 +23,6 @@ router.register(r'equities', views.EquitiesView, 'equities')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include(router.urls))
+    path('api/', include('rest_framework.urls'))
+
 ]

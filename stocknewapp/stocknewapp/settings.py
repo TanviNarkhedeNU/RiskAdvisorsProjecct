@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'poll',
     'corsheaders',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
@@ -79,8 +80,12 @@ WSGI_APPLICATION = 'stocknewapp.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'django_project_db',
+        'USER': 'root',
+        'PASSWORD': 'tpvp152025',
+        'HOST': '127.0.0.1',
+        'PORT': '3306',
     }
 }
 
